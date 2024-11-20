@@ -50,6 +50,7 @@ class MyCartViewBody extends StatelessWidget {
             height: 16,
           ),
           CustomButtom(
+            text: 'Complete Payment',
             onTap: () {
               Navigator.pushNamed(context, PaymnetDetailsView.routeName);
             },
