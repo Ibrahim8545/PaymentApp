@@ -36,7 +36,7 @@ class MyCartViewBody extends StatelessWidget {
           ),
           OrderInfoItem(
             title: 'Shipping',
-            price: r'0.0$',
+            price: r'15$',
           ),
           const Divider(
             thickness: 3,
