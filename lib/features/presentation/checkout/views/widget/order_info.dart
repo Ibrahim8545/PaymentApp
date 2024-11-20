@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:paymentapp/core/utlis/styles.dart';
 
+// ignore: must_be_immutable
 class OrderInfoItem extends StatelessWidget {
   OrderInfoItem({super.key, required this.title, required this.price});
   String title, price;

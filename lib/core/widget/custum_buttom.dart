@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:paymentapp/core/utlis/styles.dart';
 
+// ignore: must_be_immutable
 class CustomButtom extends StatelessWidget {
   CustomButtom({super.key, this.onTap});
   void Function()? onTap;

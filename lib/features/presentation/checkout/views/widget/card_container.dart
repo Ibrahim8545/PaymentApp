@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class CardContainer extends StatelessWidget {
   CardContainer({super.key, required this.image, required this.isActive});
   String image;

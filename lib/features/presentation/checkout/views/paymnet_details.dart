@@ -16,7 +16,7 @@ class PaymnetDetailsView extends StatelessWidget {
           style: Styles.style25,
         ),
       ),
-      body: PaymnetDetailsBody(),
+      body: const PaymnetDetailsBody(),
     );
   }
 }
