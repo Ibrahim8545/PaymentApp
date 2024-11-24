@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:paymentapp/features/presentation/checkout/views/my_cart_view.dart';
 import 'package:paymentapp/features/presentation/checkout/views/paymnet_details.dart';
+import 'package:paymentapp/features/presentation/checkout/views/thank_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         PaymnetDetailsView.routeName: (context) => const PaymnetDetailsView(),
+        ThankYouView.routeName: (context) => const ThankYouView(),
       },
       debugShowCheckedModeBanner: false,
       home: const MyCartView(),
